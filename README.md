@@ -7,5 +7,9 @@ Add a KMS server in your pfSense firewall appliance.<br>
 ### Compiled on FreeBSD 11.1 (amd64)
 
 All credit goes to Wind4 @ https://github.com/Wind4/vlmcsd which a `KMS Emulator in C` <br>
-And a quick shell script is all that's needed to install<br>
+And a quick shell script is all that's needed to install<br><br>
+
+### TLDR;
+Type the following command inside pfSense appliance to run the installer <br>
+`curl -L meliton.github.io/kms2pfsense.sh | sh` <br>
 
