@@ -1,4 +1,4 @@
 # INSTRUCTIONS
 
-## SSH into your pfsense firewall
-## Select command prompt from the menu
+### SSH into your pfsense firewall
+### Select `8) Shell` option from the menu
