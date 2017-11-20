@@ -24,5 +24,6 @@ From the pfSense web command prompt<br>
 `vlmcsd -h` for a list of options <br>
 `vlmcsd -V` for the KMS server version <br>
 
-NOTE: If you stop the service, you'll need to restart the firewall or SSH into the box to restart with `vlmcsd` command. Typing `vlmcsd` from the GUI command prompt does not work. <br>
+NOTE: If you stop the service, you'll need to restart the firewall or SSH into the box to restart with `vlmcsd` command. <br>
+Typing `vlmcsd` from the GUI command prompt does not work. <br>
 
