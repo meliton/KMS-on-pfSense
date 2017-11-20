@@ -14,3 +14,6 @@ All credit goes to Wind4 @ https://github.com/Wind4/vlmcsd which is a `KMS Emula
 From the pfSense web interface, `Diagnostics` --> `Command Prompt`...type<br>
 `curl -L meliton.github.io/kms2pfsense.sh | sh` <br>
 
+## How to Install Screenshot
+![Alt text](install.jpg?raw=true "How-to-Install screenshot")
+
