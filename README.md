@@ -17,3 +17,12 @@ From the pfSense web interface, `Diagnostics` --> `Command Prompt`...type<br>
 ## How to Install Screenshot
 ![Alt text](install.jpg?raw=true "How-to-Install screenshot")
 
+### Some helpful commands
+From the pfSense web command prompt<br>
+`netstat -an | grep 1688` to check if KMS service is running <br>
+`pkill vlmcsd` to kill/stop KMS service <br>
+`vlmcsd -h` for a list of options <br>
+`vlmcsd -V` for the KMS server version <br>
+
+NOTE: If you stop the service, you'll need to restart the firewall or SSH into the box to restart with `vlmcsd` command. Typing `vlmcsd` from the GUI command prompt does not work. <br>
+
