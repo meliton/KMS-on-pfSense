@@ -1,5 +1,4 @@
-# KMS-on-pfSense
-## Add a KMS server in your pfSense firewall appliance
+# Add a KMS server in your pfSense firewall appliance
 
 Tested on 2.4.1-RELEASE (amd64) pfSense appliance<br>
 Compiled on FreeBSD 11.1 (amd64)<br>
@@ -12,6 +11,6 @@ All credit goes to Wind4 @ https://github.com/Wind4/vlmcsd which is a `KMS Emula
 3- A shell script called `kms_start` is placed in `/etc/rc.d` (to start service with defaults on reboot)<br><br>
 
 ### How to Install
-Type the following command inside pfSense appliance to run the installer <br>
+From the pfSense web interface, `Diagnostics` --> `Command Prompt`...type<br>
 `curl -L meliton.github.io/kms2pfsense.sh | sh` <br>
 
