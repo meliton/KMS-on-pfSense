@@ -8,7 +8,7 @@ All credit goes to Wind4 @ https://github.com/Wind4/vlmcsd which is a `KMS Emula
 ### Nuts and bolts
 1- KMS server `vlmcsd` is copied into the `/bin` directory <br>
 2- `vlmcsd` is then chmodded to be executable <br>
-3- A shell script called `kms_start.sh` is created (and chmodded) in `/etc/rc.d` (to start service on reboot)<br><br>
+3- A shell script called `kms_start.sh` is created (and chmodded) in `/usr/local/etc/rc.d` (to start service on reboot)<br><br>
 
 ### How to Install
 From the pfSense web interface, `Diagnostics` --> `Command Prompt`... type<br>
