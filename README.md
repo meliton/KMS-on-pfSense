@@ -2,7 +2,7 @@
 
 Tested on 2.4.5-RELEASE-p1 (amd64) pfSense appliance<br>
 Compiled on FreeBSD 11.3-RELEASE-p13 (amd64)<br>
-Using vlmcsd-svn1113<br>
+Using vlmcsd-svn1113-2020-03-28-Hotbird64<br>
 
 All credit goes to Wind4 @ https://github.com/Wind4/vlmcsd which is a `KMS Emulator in C` <br><br>
 
