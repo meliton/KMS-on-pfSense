@@ -40,4 +40,4 @@ cd vlmcsd
 gmake
 cd bin
 ```
-The file 'vlmcsd' is in the `~/vlmcsd/bin` folder.
+The `vlmcsd` file is in the `~/vlmcsd/bin` folder.
