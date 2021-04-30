@@ -28,3 +28,16 @@ From the pfSense web command prompt<br>
 
 NOTE: If you stop the service, you'll need to restart the firewall or SSH into the box to restart with `vlmcsd` command. <br>
 Typing `vlmcsd` from the GUI command prompt does not work. <br>
+
+### Compile from scratch recipe
+Download then install <b>FreeBSD-12.2-RELEASE-amd64-dvd.iso</b> to a virtual machine.<br>
+Then, as `root` user, type the following:
+```
+cd ~
+pkg install gcc git wget gmake
+git clone --depth 1 https://github.com/Wind4/vlmcsd
+cd vlmcsd
+gmake
+cd bin
+```
+The file 'vlmcsd' is in the `~/vlmcsd/bin` folder.
