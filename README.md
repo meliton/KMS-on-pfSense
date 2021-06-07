@@ -1,6 +1,6 @@
 # Add a KMS server in your pfSense firewall appliance
 
-Tested on 21.02.2-RELEASE (amd64) pfSense appliance<br>
+Tested on 21.05-RELEASE (amd64) pfSense appliance<br>
 Compiled on FreeBSD 12.2-RELEASE (amd64)<br>
 Using vlmcsd-svn1113-2020-03-28-Hotbird64<br>
 
