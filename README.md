@@ -1,7 +1,7 @@
 # Add a KMS server in your pfSense firewall appliance
 
-Tested on 21.05-RELEASE (amd64) pfSense appliance<br>
-Compiled on FreeBSD 12.2-RELEASE (amd64)<br>
+Tested on 22.01-RELEASE (amd64) pfSense appliance<br>
+Compiled on FreeBSD 12.3-STABLE (amd64)<br>
 Using vlmcsd-svn1113-2020-03-28-Hotbird64<br>
 
 All credit goes to Wind4 @ https://github.com/Wind4/vlmcsd which is a `KMS Emulator in C` <br><br>
@@ -30,7 +30,7 @@ NOTE: If you stop the service, you'll need to restart the firewall or SSH into t
 Typing `vlmcsd` from the GUI command prompt does not work. <br>
 
 ### Compile from scratch recipe
-Download then install <b>FreeBSD-12.2-RELEASE-amd64-dvd.iso</b> to a virtual machine.<br>
+Download then install <b>FreeBSD-12.3-RELEASE-amd64-dvd1.iso</b> to a virtual machine.<br>
 Then, as `root` user, type the following:
 ```
 cd ~
