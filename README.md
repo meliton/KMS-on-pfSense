@@ -1,7 +1,7 @@
 # Add a KMS server in your pfSense firewall appliance
 
 Tested on 22.01-RELEASE (amd64) pfSense appliance<br>
-Compiled on FreeBSD 12.3-STABLE (amd64)<br>
+Compiled on FreeBSD 12.3-RELEASE (amd64)<br>
 Using vlmcsd-svn1113-2020-03-28-Hotbird64<br>
 
 All credit goes to Wind4 @ https://github.com/Wind4/vlmcsd which is a `KMS Emulator in C` <br><br>
