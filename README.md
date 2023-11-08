@@ -30,7 +30,7 @@ NOTE: If you stop the service, you'll need to restart the firewall or SSH into t
 Typing `vlmcsd` from the GUI command prompt does not work. <br>
 
 ### Compile from scratch recipe
-Download then install <b>FreeBSD-13.2-RELEASE-amd64-bootonly.iso</b> to a virtual machine.<br>
+Download then install <b>FreeBSD-14.0-RC4-amd64-bootonly.iso</b> to a virtual machine.<br>
 Then, as `root` user, type the following:
 ```
 cd ~
